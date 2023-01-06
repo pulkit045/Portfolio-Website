@@ -92,13 +92,13 @@ function waitAndResponce(inputText) {
       break;
     case "skills":
       sendTextMessage(
-        "<span class='sk'>I am currently pursuing B.Tech degree in Computer Science & Artificial Intelligence.<br><br>I can comfortably write code in following languages :<br><span class='bold'>C++<br>JavaScript<br>CSS<br>HTML</span><br><br>I've experiance with following frameworks :<span class='bold'><br>ReactJs<br>Express</span><br><br>Academic Coursework :<br><span class='bold'>Data Structures and Algorithms<br>OOPS<br>Operating System<br>Database Management System</span>"
+        "<span class='sk'>I am currently pursuing B.Tech degree in Computer Science & Artificial Intelligence.<br><br>I can comfortably write code in following languages :<br><span class='bold'>C/C++<br>SQL<br>JavaScript</span><br><br>I've experience in following technologies :<span class='bold'><br>ReactJs<br>Express<br>Redux<br>Nodejs<br>MongoDB<br>REST Api</b></span><br><br>Academic Coursework :<br><span class='bold'>Data Structures and Algorithms<br>OOPS<br>Operating System<br>Database Management System</span>"
       );
       break;
 
     case "education":
       sendTextMessage(
-        "I am currently pusuing B.Tech degree in Computer Science & Artificial Intelligence from IIIT Lucknow<br>Passing Year : 2024<br><br>I have completed my High school from local school known as SJPS<br>Passing Year:2020<br>Result: 94.8%"
+        "I am currently pusuing B.Tech degree in Computer Science & Artificial Intelligence from IIIT Lucknow<br>Passing Year : 2024<br><br>I have completed my High school from SJ Public School<br>Passing Year:2020<br>Result: 94.8%"
       );
       break;
 
@@ -184,5 +184,5 @@ function sendResponse() {
 }
 
 function playSound() {
-  audio.play();
+  audio.play(); 
 }
