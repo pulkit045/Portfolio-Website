@@ -1,6 +1,6 @@
 var audio = new Audio("assets/sentmessage.mp3");
 const contactString =
-  "<div class='social'> <a target='_blank' href='tel:+918955840780'> <div class='socialItem' id='call'><img class='socialItemI' src='images/phone.svg'/><label class='number'>8955840780</label></div> </a> <a href='mailto:pulkitgupt045@gmail.com'> <div class='socialItem'><img class='socialItemI' src='images/gmail.svg' alt=''></div> </a> <a target='_blank' href='https://github.com/pulkit045'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a> <a target='_blank' href='https://wa.me/918955840780'> <div class='socialItem'><img class='socialItemI' src='images/whatsapp.svg' alt=''></div> </a> <a target='_blank' href='https://t.me/pulkit045'> <div class='socialItem'><img class='socialItemI' src='images/telegram.svg' alt=''></div> </a> <a target='_blank' href='https://instagram.com/pulkit045'> <div class='socialItem'><img class='socialItemI' src='images/instagram.svg' alt=''> </div> </a> <a href='https://www.linkedin.com/in/pulkit-gupta-07bb85200/' target='_blank' rel='noopener noreferrer'> <div class='socialItem'><img class='socialItemI' src='images/linkedin.svg' alt=''></div> </a> </div>";
+  "<div class='social'> <a target='_blank' href='tel:+918955840780'> <div class='socialItem' id='call'><img class='socialItemI' src='images/phone.svg'/><label class='number'>8955840780</label></div> </a> <a href='mailto:pulkitgupt045@gmail.com'> <div class='socialItem'><img class='socialItemI' src='images/gmail.svg' alt=''></div> </a> <a target='_blank' href='https://github.com/pulkit045'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a> <a target='_blank' href='https://wa.me/918955840780'> <div class='socialItem'><img class='socialItemI' src='images/whatsapp.svg' alt=''></div> </a> <a target='_blank' href='s'> <div class='socialItem'><img class='socialItemI' src='images/telegram.svg' alt=''></div> </a> <a target='_blank' href='https://instagram.com/pulkit045'> <div class='socialItem'><img class='socialItemI' src='images/instagram.svg' alt=''> </div> </a> <a href='https://www.linkedin.com/in/pulkit-gupta-07bb85200/' target='_blank' rel='noopener noreferrer'> <div class='socialItem'><img class='socialItemI' src='images/linkedin.svg' alt=''></div> </a> </div>";
 var resumeString =
   "<img src='images/resumeThumbnail.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/pdf.png'><label>Pulkit Resume.pdf</label></div><a href='assets/Resume_Pulkit Gupta.pdf' download='Pulkit_Gupta.pdf'><img class='download' src='images/downloadIcon.svg'></a></div>";
 var addressString =
@@ -16,7 +16,7 @@ function setLastSeen() {
   lastSeen.innerText =
     "last seen today at " + date.getHours() + ":" + date.getMinutes();
 }
-
+  
 function closeFullDP() {
   var x = document.getElementById("fullScreenDP");
   if (x.style.display === "flex") {
